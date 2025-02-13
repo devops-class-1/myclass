@@ -1,0 +1,2 @@
+Ansible is used for the multi-tier deployments and it models all of IT infrastructure into one deployment instead of handling each one separately. 
+There are no agents and no custom security architecture is required to be used in the Ansible architecture.
