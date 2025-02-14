@@ -1,0 +1,14 @@
+- name: Print sample text
+  hosts: localhost
+  tasks:
+   - name: Print statement
+     ansible.builtin.debug:
+       msg: Believe in yourself
+   - name: Print statement
+     ansible.builtin.debug:
+       msg: Never Give Up
+   - name: Print statement
+     ansible.builtin.debug:
+       msg: Practice, Practice, Practice
+
+   
