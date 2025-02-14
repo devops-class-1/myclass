@@ -15,12 +15,12 @@
         msg: fruits
       when: type == "fruits"  
 
-    - name: Watches
+    - name: watches
       ansible.builtin.debug:
-        msg: Watches
-      when: type == "Watches" 
+        msg: watches
+      when: type == "watches" 
 
     - name: Laptops
       ansible.builtin.debug:
-        msg: Laptops
-      when: type == "Laptops" 
+        msg: laptops
+      when: type == "laptops" 
