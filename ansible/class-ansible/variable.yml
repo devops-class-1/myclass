@@ -28,7 +28,7 @@
       ansible.builtin.debug:
         msg: "{{ URL_CUSTOM }}"  
 
-    # Store result of a task, to OUTPUT variable
+    # Store result of a task, to OUTPUT variable ------- register
     - name: demo
       ansible.builtin.shell: uptime
       register: OUTPUT 
