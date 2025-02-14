@@ -38,3 +38,4 @@
         msg: "{{ OUTPUT.stdout }}"         
 
 # ansible-playbook variable.yml -e "URL_CUSTOM='Iam passing'"  
+#single quotes to pass string
