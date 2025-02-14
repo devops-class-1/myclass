@@ -37,4 +37,4 @@
       ansible.builtin.debug:
         msg: "{{ OUTPUT.stdout }}"         
 
-# ansible-playbook var.yml -e "URL_CUSTOM='Iam passing'"  
+# ansible-playbook variable.yml -e "URL_CUSTOM='Iam passing'"  
