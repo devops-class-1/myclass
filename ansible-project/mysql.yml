@@ -1,3 +1,4 @@
+---
 - name: Mysql Setup
   hosts: mysql
   become: yes
